@@ -4,7 +4,8 @@ Write a function returning his savings after N months.
 (N is an input from the user)'''
 
 def savings(n):
-    s = 300 + n//6 +(n-n//6)*100
+    
+    s = 300 + n*100 + (n//6)*500
     print(f'Savings: {s}')
 
 n = int(input('Enter the number of months: '))
