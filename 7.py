@@ -17,4 +17,4 @@ def unix(s):
     return f"chararers: {nc}\nwords: {nw}\nlines: {nl}"
 
 text = input("input text: ")
-unix(text)
+print(unix(text))
