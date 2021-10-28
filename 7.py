@@ -16,3 +16,5 @@ def unix(s):
     nl = s.count('\n')#how many lines
     return f"chararers: {nc}\nwords: {nw}\nlines: {nl}"
 
+text = input("input text: ")
+unix(text)
