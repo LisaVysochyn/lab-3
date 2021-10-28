@@ -15,7 +15,7 @@ def greatest_common_divisor(x,y):
         for i in range(y):
             if x%(i+1)==0 and y%(i+1)==0:
                 divisors.append(i+1)
-                
+
     print(f'GCD({x},{y})= {divisors[-1]}')
 
 x = int(input('Enter the first number: '))
